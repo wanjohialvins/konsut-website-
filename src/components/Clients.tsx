@@ -20,7 +20,7 @@ const Clients = () => {
     ];
 
     return (
-        <section id="clients" className="py-20 bg-white border-t border-gray-100">
+        <section id="clients" className="py-12 md:py-20 bg-white border-t border-gray-100">
             <div className="container mx-auto px-6 text-center">
                 <h2 className="text-3xl font-display font-bold text-brand-navy-900 mb-12">Key Clients</h2>
 

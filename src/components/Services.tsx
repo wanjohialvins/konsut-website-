@@ -61,7 +61,7 @@ const Services = () => {
     };
 
     return (
-        <section id="services" className="py-20 bg-brand-navy-900 relative overflow-hidden">
+        <section id="services" className="py-12 md:py-20 bg-brand-navy-900 relative overflow-hidden">
             {/* Decorative Background Elements */}
             <div className="absolute top-0 left-0 w-64 h-64 bg-brand-blue-500/10 rounded-full filter blur-3xl"></div>
             <div className="absolute bottom-0 right-0 w-96 h-96 bg-brand-navy-600/20 rounded-full filter blur-3xl"></div>
@@ -69,7 +69,7 @@ const Services = () => {
             <div className="container mx-auto px-6 relative z-10">
                 <div className="text-center mb-16">
                     <span className="text-brand-blue-500 font-bold uppercase tracking-wider text-sm">Our Expertise</span>
-                    <h2 className="text-4xl md:text-5xl font-display font-bold text-white mt-2 mb-6">
+                    <h2 className="text-3xl md:text-5xl font-display font-bold text-white mt-2 mb-6">
                         Comprehensive Services
                     </h2>
                     <p className="text-gray-400 max-w-2xl mx-auto text-lg">

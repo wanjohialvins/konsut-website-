@@ -11,7 +11,7 @@ const About = () => {
     ];
 
     return (
-        <section id="about" className="py-20 bg-white">
+        <section id="about" className="py-12 md:py-20 bg-white">
             <div className="container mx-auto px-6">
                 {/* Who We Are */}
                 <motion.div

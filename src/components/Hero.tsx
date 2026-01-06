@@ -25,7 +25,7 @@ const Hero = () => {
                         <span className="animate-pulse">●</span> Certified by Communications Authority of Kenya
                     </div>
 
-                    <h1 className="text-5xl md:text-6xl font-display font-bold leading-tight mb-6">
+                    <h1 className="text-4xl md:text-6xl font-display font-bold leading-tight mb-6">
                         Comprehensive solutions, <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue-500 to-blue-200">
                             boundless possibilities.

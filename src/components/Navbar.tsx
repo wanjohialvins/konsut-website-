@@ -24,7 +24,7 @@ const Navbar = () => {
 
     return (
         <nav
-            className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-white py-4 shadow-sm'
+            className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-navy-900 shadow-md py-2' : 'bg-brand-navy-900 py-4 shadow-sm'
                 }`}
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
@@ -41,7 +41,7 @@ const Navbar = () => {
                             to={link.to}
                             smooth={true}
                             duration={500}
-                            className={`cursor-pointer font-medium hover:text-brand-blue-500 transition-colors text-brand-navy-900`}
+                            className={`cursor-pointer font-medium hover:text-brand-blue-500 transition-colors text-white`}
                         >
                             {link.name}
                         </Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
 
             {/* Mobile Menu Overlay */}
             {isMobileMenuOpen && (
-                <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-xl py-6 px-6 flex flex-col gap-4">
+                <div className="md:hidden absolute top-full left-0 w-full bg-brand-navy-900 shadow-xl py-6 px-6 flex flex-col gap-4">
                     {navLinks.map((link) => (
                         <Link
                             key={link.name}
@@ -75,7 +75,7 @@ const Navbar = () => {
                             smooth={true}
                             duration={500}
                             onClick={() => setIsMobileMenuOpen(false)}
-                            className="text-brand-navy-900 text-lg font-medium border-b border-gray-100 pb-2"
+                            className="text-white text-lg font-medium border-b border-gray-700 pb-2"
                         >
                             {link.name}
                         </Link>

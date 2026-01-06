@@ -11,7 +11,7 @@ const Team = () => {
     ];
 
     return (
-        <section id="team" className="py-20 bg-gray-50">
+        <section id="team" className="py-12 md:py-20 bg-gray-50">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <span className="text-brand-blue-600 font-bold uppercase tracking-wider text-sm">Our People</span>
