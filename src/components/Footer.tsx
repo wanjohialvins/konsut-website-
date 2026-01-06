@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
-        <footer className="bg-brand-navy-950 text-white border-t border-brand-navy-900 py-12">
+        <footer className="bg-brand-navy-900 text-white border-t border-brand-navy-800 py-12">
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-4 gap-8 mb-8">
                     <div className="col-span-1 md:col-span-2">
