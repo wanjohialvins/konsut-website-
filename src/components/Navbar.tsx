@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className="container mx-auto px-6 flex justify-between items-center">
                 {/* Logo Area */}
                 <div className="flex items-center gap-2">
-                    <img src="/images/logo.jpg" alt="Konsut Ltd" className="h-16 md:h-20 w-auto object-contain" />
+                    <img src="/images/logo.jpg" alt="Konsut Ltd" className="h-16 md:h-20 w-auto object-contain mix-blend-screen" />
                 </div>
 
                 {/* Desktop Navigation */}
