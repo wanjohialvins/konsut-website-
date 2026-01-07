@@ -32,5 +32,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: public_html/ 
+          dangerous-clean-slate: false # Prevent deleting other files on server 
           # ADJUST 'public_html/' IF YOU WANT TO DEPLOY TO A SUBFOLDER
           # e.g., public_html/konsut/
